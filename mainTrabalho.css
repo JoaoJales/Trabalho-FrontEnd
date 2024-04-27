@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin:0;
+    
+}
+
+
+
+.home{
+    background-image: linear-gradient(brown,rgb(0, 0, 0));
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap: 30px;
+
+}
+.home a{
+    font-size: 50px;
+    color: black;
+    
+}
+.titulo{
+    width: 50%;
+}
+.p1{
+    font-size: 20px;
+    width: 50%;
+}
+.areas{
+    
+    align-items: center;
+    width: 50%;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.areas button{
+    height: 40px;
+    width: 100%;
+    border-radius: 30px;
+    background-color: white;
+
+}
